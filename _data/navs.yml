@@ -3,14 +3,11 @@ mainnav:
   -
     items:
       -
-        page: 'Home'
+        page: 'Welcome'
         url: /
       -
-        page: 'Basic page'
-        url: /basic/
-      -
-        page: 'Form page'
-        url: /form/
+        page: 'Background'
+        url: /background/
 
 bottomnav:
   -
