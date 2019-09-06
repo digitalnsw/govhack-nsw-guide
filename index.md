@@ -50,6 +50,9 @@ _It is important to understand that the rules mentioned above are not authoritat
 The coded rules can be found on our Github page: [https://github.com/digitalnsw/openfisca-nsw](https://github.com/digitalnsw/openfisca-nsw)
 
 You can interact with the API/test some of the rules, here: [http://test.nsw.digital/index.html  
+
+If you'd like to see the API accessed with JavaScript (vanilla and jQuery), the code for our test app is at [https://github.com/digitalnsw/cereal](https://github.com/digitalnsw/cereal) (it's for internal testing, some of it is hacky!)
+
 ](http://test.nsw.digital/index.html)You can have a look at our API Library, here: [http://rules-explorer.herokuapp.com/](http://rules-explorer.herokuapp.com/)
 
 Browse the rules here: [http://openfisca-nsw-dev.herokuapp.com](http://openfisca-nsw-dev.herokuapp.com)
