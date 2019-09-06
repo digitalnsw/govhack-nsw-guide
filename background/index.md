@@ -2,4 +2,4 @@
 layout: sidenav
 ---
 
-# Backgound info
+# Background info
