@@ -1,58 +1,51 @@
 ---
 layout: sidenav
 ---
-# NSW Government github pages template
+Hello and a very warm welcome to all GovHack participants interested in knowing more about the challenge related to “Rules as Code”. It is a transformational idea that we at the Data, Insights and Transformation branch of NSW Government Department of Customer Service have been working on, over the past several months. As part of the GovHack challenge, our team has put together a short list of things you would need to do in order to set up your own API instance of OpenFisca-NSW. The steps are mentioned below:
 
-### Background
-This repo is a theme so that NSW Government designers to create prototype digital products (static or transactional) which are displayed using github pages.
+1. Create a fork of Openfisca-NSW from [Github ](https://github.com/digitalnsw/openfisca-nsw)
+2. Setup an account at [Heroku](https://www.heroku.com/) and create a new app from your Heroku account dashboard.
+3. Connect your Github account to the newly created Heroku app.
+4. Once the Github account has been linked, search for the forked repository and connect it to the Heroku app.
+5. Choose the branch that you wish to deploy, and select the checkbox for “Wait for CI to pass before deploy”, and click on “Enable Automatic Deploys”
+6. Select the branch that you wish to deploy and click on “Deploy Branch”
+7. Wait a few moments and then click on “Open app”
 
-### How to use
-First, we need to import [use-NSW-jekyll](https://github.com/tjharrop/use-NSW-jekyll) to a repo in your own account.
-1. Sign in to github.com
-2. Click + in the top right
-3. Select 'import repository'
-4. Paste `https://github.com/tjharrop/use-NSW-jekyll.git` in to the old repo URL
-5. Name your project
-6. Click 'Begin import'
+After following these steps, you should be able to see the following message:
 
-Your repo is ready to go!
+“Welcome - This is the root of an OpenFisca Web API. To learn how to use it, check the general documentation…”
 
-Now we tell github pages to host the prototype
-1. Open `github.com/your-username/your-new-repository` (the one you just created)
-2. Click settings
-3. Scroll down to github pages
-4. Select the master branch as the source (in the drop-down) and click save. It'll take about 10 minutes to build. The URL will be shown to you
+Congratulations – you’ve just set up your own Openfisca Web API.
 
-Change settings so it all works
-1. In github, or an editor, edit the `_config.yml` file. Change the `baseurl:` to `/your-repo-name`
-2. Change `title:` and `description:` to match your project
+--------------------------------------------------------------------------------------------------------------------------------------
 
-### Your website is ready to go!
+**Creating your own rules vs utilising pre-existing rules:**
 
-**Editing the nav**
+If you are looking to utilise the pre-existing coded rules/rebates/policies, you should use the following from the Openfisca-NSW coded rules:
 
-Your navigation is generated from a file in your repository. It's in `_data` and it's called `navs.yml`
+1. Active Kids
+2. Creative Kids
+3. NRMA Free 2 Go
+4. Family Energy Rebate
+5. Gas Rebate
+6. National Parks Concessions Pass
+7. Teenage Education Payments
+8. Disadvantaged Learner Drivers Course
+9. StEPS
 
-It uses the YAML format - there are editors out there to help
+_It is important to understand that the rules mentioned above are not authoritative in any way, and are experimental in nature._
 
-**Creating pages**
+If you are looking at coding new rules into your forked version of Openfisca-NSW – well, the sky is the limit. Just make sure you add any new “Entities” to your code and incorporate these in tests, if needed. The [Openfisca](https://openfisca.org/en/) website has a lot of documentation and resources that could help you!
 
-If you create a file, it will adopt the template. If you create a directory and call the page 'index.md' for markup or 'index.html' if you prefer HTML, it will show by default.
+**Some more links:**
 
-**Other options**
+The coded rules can be found on our Github page: [https://github.com/digitalnsw/openfisca-nsw](https://github.com/digitalnsw/openfisca-nsw)
 
-There are 3 templates, which you can change using the 'layout' option in the page settings
-- default - no side nav
-- sidenav - contains a side-nav
-- accordion - contains a side nav which shows/hides
+You can interact with the API/test some of the rules, here: [http://test.nsw.digital/index.html  
+](http://test.nsw.digital/index.html)You can have a look at our API Library, here: [http://rules-explorer.herokuapp.com/](http://rules-explorer.herokuapp.com/)
 
-You can set the site 'stage' (such as alpa/prototype/beta) in the `_config.yml` file
+or here: [http://openfisca-nsw-dev.herokuapp.com](http://openfisca-nsw-dev.herokuapp.com)
 
-### Tech
-[NSW-uikit-starter](https://github.com/tjharrop/nsw-uikit-starter) is a fork of the DTA's [Uikit Starter](https://github.com/govau/uikit-starter) which, instead of being static HTML files, generates a NSW-branded theme for Jekyll, the Ruby static site builder used by github pages.
+You can have a look at the react explorer with swagger docs: [http://nsw-rules-dev.herokuapp.com](http://nsw-rules-dev.herokuapp.com)
 
-The whole Jekyll theme is available in [NSW-jekyll-theme](https://github.com/tjharrop/NSW-jekyll-theme).
-
-You can use NSW-jekyll-theme without forking it, by referencing it as a remote theme.
-
-This package is a demo of that, which you can import and modify.
+_It is important to understand that the rules present in the links above are not authoritative in any way, and are experimental in nature._
