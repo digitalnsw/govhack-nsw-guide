@@ -1,1 +1,5 @@
+---
+layout: sidenav
+---
+
 # Backgound info
