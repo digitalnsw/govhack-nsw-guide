@@ -3,6 +3,7 @@ layout: sidenav
 ---
 
 # Rules as code: Improving public access to the rules of government
+### Written by Asghar Kazi
 
 *This blog post talks about the possibilities if legislation and other rules of government were available as code. It has been written to not only convey what a transformative idea rules as code is, but will also cover some of the updates from the Rules as Code work that our team has been doing under the leadership of our Executive Director, Pia Andrews in the Department of Customer Service.*
 
