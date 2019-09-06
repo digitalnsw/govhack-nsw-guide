@@ -1,16 +1,16 @@
-title: Name of product or service
+title: Govhack guide
 
 email: tjharrop@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Simple explaination of the product or service.
-baseurl: "/use-NSW-jekyll" # the subpath of your site, e.g. /blog
+  Guide for using the NSW Rules as Code APIs
+baseurl: "/govhack-nsw-guide" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: tjharrop
-github_username:  tjharrop
+twitter_username: digitalnsw
+github_username:  digitalnsw
 
-browserTitle: NSW Gov prototyping demo
+browserTitle: NSW Govhack Guide
 
-stage: prototype
+stage: info
 
 # Build settings
 markdown: kramdown
